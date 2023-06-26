@@ -5,15 +5,30 @@ const randomstring = require('randomstring');
 const bcrypt = require('bcrypt');
 const ShortUrl = require('./models/shortUrl');
 const User = require('./models/user');
+const dotenv= require('dotenv');
+dotenv.config()
 
 // Creating an Express application:
 const app = express();
 
+
+
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/URL-Shortener', {
+const connectionParams = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-});
+};
+
+mongoose
+  .connect(process.env.MONGO_URI, connectionParams)
+  .then(() => {
+    console.info("Connected to the MongoDB");
+  })
+  .catch((e) => {
+    console.log("Error:", e);
+  });
+
+
 
 // Configuring the application:
 app.set('view engine', 'ejs');
@@ -152,7 +167,6 @@ app.get('/:shortUrl', async (req, res) => {         //// Redirecting short URLs:
 
   res.redirect(shortUrl.full);
 });
-
 
 
 
