@@ -12,7 +12,7 @@ Shortify URL Shortener is a user-friendly web application that simplifies the pr
   <img src="https://github.com/aaryan-00/Shortify-URL-Shortener/blob/main/public/images/Register%20page.jpeg" width="600" alt="Register Page">
   <h3>Home View<h3/> 
   <img src="https://github.com/aaryan-00/Shortify-URL-Shortener/blob/main/public/images/home%20page.jpeg" width="600" alt="Home Page">
-  <h3>ALL URLs' or Search Page View<h3/> 
+  <h3>ALL URLs' or Search View<h3/> 
   <img src="https://github.com/aaryan-00/Shortify-URL-Shortener/blob/main/public/images/search_page_or_all_urls_page.jpeg" width="600" alt="All URLs' Page">   
 </div>
 
