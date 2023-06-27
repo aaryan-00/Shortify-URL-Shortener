@@ -50,30 +50,34 @@ The internal working of the project involves several key components and processe
    - Header and Footer: A consistent user interface was achieved by implementing header and footer components that appeared across the entire application. This ensured a unified navigation experience for users.
 
 <h2>
-My Key Learnings:
+My Key Takeaways:
 </h2>
    
    During the development of the QuickLink application, I gained valuable insights and practical experience in various aspects of web development. Here are my key learnings:
 
 - Full Stack Development: As a new web developer, working on the QuickLink application allowed me to gain valuable experience in implementing both the server-side and client-side components. This comprehensive involvement provided me with a holistic understanding of web development, from the backend to the frontend.
+-  User Authentication : I was able to make user to sign up or login before entering into the application.
+-  Password hashing : The password typed by the user was first hashed before storing into the database. This provide a reliability and security.
 - Bootstrap: Utilize Bootstrap framework for efficient and visually appealing UI design without extensive CSS coding.
 - Search Functionality: Implement search feature for users to quickly find specific data within the application.
 - Click Tracking: Monitor and track the number of clicks on shortened URLs to gather valuable user engagement data.
 - README Documentation: Create well-structured README files to provide clear instructions and guidance for other developers.
 - Debugging Skills: Improve debugging abilities by effectively identifying and resolving errors during development.
 
-<h2>
-Resources:
-</h2>
 
-During the development of the QuickLink application, I referred to various resources to enhance my knowledge and skills. Here are the websites and YouTube channels I utilized:
+## References:
 
-- W3Schools(https://www.w3schools.com/)
-- Stack overflow for debugging
-- WebDev simplified youtube video(https://www.youtube.com/c/webdevsimplified)
-- MongoDB tutorial from code with harry youtube channel(https://youtu.be/oSIv-E60NiU)
-- npm website: Used to reference documentation and syntax for working with npm packages.(https://www.npmjs.com/)
+During the development of the Shortify URL Shortener web application, the following resources were utilized to enhance knowledge and skills:
 
+- npm Documentation (https://www.npmjs.com/)
+- W3Schools (https://www.w3schools.com/)
+- NodeJs Tutorial from codevolution's youtube playlist (https://youtube.com/playlist?list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY)
+- Authentication from WebDevSimplified's video (https://youtu.be/Ud5xKCYQTjM) 
+- Bootstrap Documentation (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- MongoDB tutorial from CodeWithHarry video (https://youtu.be/J6mDkcqU_ZE)
+- Stack Overflow website for debugging (https://stackoverflow.com/)
+
+These resources provided valuable guidance and support throughout the development process of the Shortify application.
 
 
 
