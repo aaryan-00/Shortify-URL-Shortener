@@ -43,11 +43,11 @@ To run the Shortify URL Shortener project, follow these steps:
 - shortid
 
 
-<h2>
-Internal working of my Project :
-</h2>
 
-The internal working of the project involves several key components and processes. Here's a breakdown of the internal workings:
+##Internal working of my Project :
+
+
+Here's a breakdown of the internal workings of this project:
 
    - Node.js and Express: The application was built using Node.js as the runtime environment and Express.js as the web framework. This combination provided scalability and efficient handling of HTTP requests and responses.
    - MongoDB: MongoDB atlas was used as the database solution to store user information, including hashed passwords. The integration with the database was simplified using the Mongoose library for data modeling and interaction.
@@ -61,9 +61,8 @@ The internal working of the project involves several key components and processe
    - Filtering Data: A filtering mechanism was implemented on the frontend to facilitate data searching and filtering. This allowed users to search and display their shortened URLs using notes or URLs.
    - Header and Footer: The application implemented header and footer components that appeared consistently across the entire application, ensuring a unified navigation experience for users.
 
-<h2>
-My Key Takeaways:
-</h2>
+##My Key Takeaways:
+
    
 Throughout the process of building the Shortify URL Shortener application, I acquired invaluable knowledge and hands-on expertise in diverse areas of web development. Here, I present my significant takeaways from this experience.
 
