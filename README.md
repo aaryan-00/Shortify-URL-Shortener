@@ -76,7 +76,7 @@ Throughout the process of building the Shortify URL Shortener application, I acq
 - Click Tracking: Tracked the number of clicks on shortened URLs for user engagement insights.
 - MongoDB Cloud Database: Successfully connected to and utilized a MongoDB cloud database.
 - Debugging Skills: Developed expertise in debugging type errors, Axios errors, and HTTP status codes.
-- Working with HTML and styling using CSS and Bootstrap: Worked with HTML templates and static files and Styled the application using Bootstrap and CSS.
+- Working with HTML, CSS and Bootstrap: Worked with HTML templates and static files and Styled the application using Bootstrap and CSS.
 - Structured Readme: Created a well-organized readme file in the Git repository.
 
 ## References:
