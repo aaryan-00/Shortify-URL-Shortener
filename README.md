@@ -43,25 +43,27 @@ To run the Shortify URL Shortener project, follow these steps:
 - shortid
 
 
-
-##Internal working of my Project :
+## Internal working of the Project :
 
 
 Here's a breakdown of the internal workings of this project:
 
    - Node.js and Express: The application was built using Node.js as the runtime environment and Express.js as the web framework. This combination provided scalability and efficient handling of HTTP requests and responses.
+   - dotenv: The `dotenv` library was used to load environment variables from a .env file into the Node.js application, allowing sensitive configuration data to be securely stored and accessed.
+   - Nodemon: Used as a development tool to automatically restart the Node.js application upon file changes, enhancing the development workflow.
    - MongoDB: MongoDB atlas was used as the database solution to store user information, including hashed passwords. The integration with the database was simplified using the Mongoose library for data modeling and interaction.
    - User Registration and Login: Users can register by providing their information, which is securely stored in the MongoDB database. The application verifies user credentials during login and generates an authentication token upon successful authentication.
-   - Session Management: Session management was implemented to maintain user sessions and handle authentication, allowing users to remain logged in across different pages.
-   - Password Hashing: User passwords were hashed using bcrypt before being stored in the database. This ensured the security of user passwords even in the event of a data breach.
-   - Short ID Generation: The shortid library was used to generate unique and compact identifiers for shortened URLs. This ensured that each shortened URL had a distinct identifier.
+   - Session Management: Session management was implemented to maintain user sessions and handle authentication, allowing users to remain logged in across different pages. This was made possible by utilizing the express-sessions middleware, which facilitated the creation and management of user sessions.
+   - Password Hashing: User passwords were hashed using `bcrypt` before being stored in the database. This ensured the security of user passwords even in the event of a data breach.
+   - Randomstring: The `randomstring` library was used to generate unique tokens for session management and authentication, ensuring secure and reliable identification of users during subsequent requests.
+   - Short ID Generation: The `shortid` library was used to generate unique and compact identifiers for shortened URLs. This ensured that each shortened URL had a distinct identifier.
    - Number of Clicks: The application tracked the number of clicks on shortened URLs by incrementing a 'clicks' counter for each click event. This provided insights into the popularity and usage of different URLs.
    - EJS: The application utilized the ejs templating engine to dynamically render HTML templates on the server side. This allowed for the efficient generation of HTML content with embedded JavaScript logic.
    - CSS and Bootstrap: Custom CSS styles were implemented to enhance the visual presentation of the application. The Bootstrap framework was leveraged to utilize predefined styles and components, resulting in a consistent and responsive design.
    - Filtering Data: A filtering mechanism was implemented on the frontend to facilitate data searching and filtering. This allowed users to search and display their shortened URLs using notes or URLs.
    - Header and Footer: The application implemented header and footer components that appeared consistently across the entire application, ensuring a unified navigation experience for users.
 
-##My Key Takeaways:
+## My Key Takeaways:
 
    
 Throughout the process of building the Shortify URL Shortener application, I acquired invaluable knowledge and hands-on expertise in diverse areas of web development. Here, I present my significant takeaways from this experience.
