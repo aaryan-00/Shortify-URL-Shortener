@@ -1,8 +1,8 @@
 <h1 align="center">
-  Shoritify URL Shortener
+  Shortify URL Shortener
 </h1>
 
-Shortify URL Shortener is a user-friendly web application designed to simplify URL management, note-taking, and click tracking. By securely registering and logging in, users can effectively manage their shortened URLs and attach personal notes. The application also offers a search functionality to easily locate saved URLs and notes. Moreover, Shortify URL Shortener provides valuable insights by tracking the number of clicks on shortened URLs, allowing users to assess engagement and campaign effectiveness. Additionally, users can view the creation timing of their shortened URLs, enabling them to maintain a chronological record of their actions. Overall, Shortify URL Shortener offers a convenient and intuitive solution for users seeking efficient URL management and tracking capabilities.
+Shortify URL Shortener is a user-friendly web application that simplifies the process of shortening URLs, managing notes, and tracking click statistics. With Shortify URL Shortener, users can securely register and log in to efficiently handle their shortened URLs, attach personal notes, search for saved URLs and notes, and monitor the click count of the shortened URLs. Additionally, users can easily access the history of their previously shortened URLs, along with the timestamps of their creation. Shortify URL Shortener provides a seamless and intuitive experience for users in managing and tracking their URLs.
 
 ## How to Run the Project:
 
@@ -11,15 +11,24 @@ To run the Shortify URL Shortener project, follow these steps:
 2. Clone the repository: `git clone <repository_url>`.
 3. Navigate to the project directory.
 4. Install the required dependencies by running the command `npm install`.
-5. In the .env, provide the necessary environment variables (e.g., database connection URI, PORT) or you can leave it as I have provided these in the .env file attached to this project.
+5. In the `.env` file, provide the necessary environment variables (e.g., database connection URI, PORT) or you can leave it as I have provided these in the `.env` file attached to this project.
 6. Run the application: `npm run start`.
 7. Access the application in your web browser at: `http://localhost:3000`.
 
 ## Accessing the Application:
 
-1. Open your web browser and visit `http://localhost:3000` to access the QuickLink application.
-2. Sign up for a new account or log in using your existing credentials.
-3. Start using the application to shorten URLs, add notes, get the previous shortened URL, search the URLs and notes, and track click statistics.
+1. Open your web browser and navigate to http://localhost:3000 to access the Shortify URL Shortener application.
+2. Register for a new account or log in if you already have one.
+3. Provide the necessary details for registration, such as name, email address, and password.
+4. If you're logging in, enter your email and password to access the application.
+5. Once logged in, you can start using the URL shortener application.
+   - Shorten URLs by entering a long URL and personal notes and clicking the "Shorten" button.
+   - Access your previously shortened URLs easily on the All URLs page.
+   - Use the search function to find specific URLs or notes.
+   - View click statistics to understand user engagement.
+   - See the "Created At" timestamp for each shortened URL, indicating when it was created.
+6. Explore the application further and try out different features.
+7. Make the most of the URL shortener to efficiently manage your URLs, notes, and their creation timestamps.
 
 ## Dependencies:
 
@@ -53,17 +62,18 @@ The internal working of the project involves several key components and processe
 My Key Takeaways:
 </h2>
    
-   During the development of the QuickLink application, I gained valuable insights and practical experience in various aspects of web development. Here are my key learnings:
+Throughout the process of building the Shortify URL Shortener application, I acquired invaluable knowledge and hands-on expertise in diverse areas of web development. Here, I present my significant takeaways from this experience.
 
-- Full Stack Development: As a new web developer, working on the QuickLink application allowed me to gain valuable experience in implementing both the server-side and client-side components. This comprehensive involvement provided me with a holistic understanding of web development, from the backend to the frontend.
--  User Authentication : I was able to make user to sign up or login before entering into the application.
--  Password hashing : The password typed by the user was first hashed before storing into the database. This provide a reliability and security.
-- Bootstrap: Utilize Bootstrap framework for efficient and visually appealing UI design without extensive CSS coding.
-- Search Functionality: Implement search feature for users to quickly find specific data within the application.
-- Click Tracking: Monitor and track the number of clicks on shortened URLs to gather valuable user engagement data.
-- README Documentation: Create well-structured README files to provide clear instructions and guidance for other developers.
-- Debugging Skills: Improve debugging abilities by effectively identifying and resolving errors during development.
-
+- Full Stack Development: Successfully implemented Full Stack Development by seamlessly integrating server-side and client-side components in a unified project leveraging Express, EJS, and Node.js.
+- User Authentication: Enabled user registration and login for secure access to the application and implemented user authentication and session management.
+- Password Hashing: Prioritized security by hashing passwords using bcrypt module before storing them.
+- Bootstrap: Utilized Bootstrap for easy and visually appealing UI design.
+- Search Functionality: Implemented a search feature for efficient querying of URLs and notes.
+- Click Tracking: Tracked the number of clicks on shortened URLs for user engagement insights.
+- MongoDB Cloud Database: Successfully connected to and utilized a MongoDB cloud database.
+- Debugging Skills: Developed expertise in debugging type errors, Axios errors, and HTTP status codes.
+- Working with HTML and styling using CSS and Bootstrap: Worked with HTML templates and static files and Styled the application using Bootstrap and CSS.
+- Structured Readme: Created a well-organized readme file in the Git repository.
 
 ## References:
 
