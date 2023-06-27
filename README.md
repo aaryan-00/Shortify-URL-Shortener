@@ -4,7 +4,7 @@
 
 Shortify URL Shortener is a user-friendly web application that simplifies the process of shortening URLs, managing notes, and tracking click statistics. With Shortify URL Shortener, users can securely register and log in to efficiently handle their shortened URLs, attach personal notes, search for saved URLs and notes, and monitor the click count of the shortened URLs. Additionally, users can easily access the history of their previously shortened URLs, along with the timestamps of their creation. Shortify URL Shortener provides a seamless and intuitive experience for users in managing and tracking their URLs.
 
-## Screenshots -- 
+## Screenshots
 <div align="center" >
   <h3>Login View<h3/> 
   <img src="https://github.com/aaryan-00/Shortify-URL-Shortener/blob/main/public/images/login%20page.jpeg" width="600" alt="Login Page">
