@@ -84,14 +84,14 @@ Throughout the process of building the Shortify URL Shortener application, I acq
 
 - Full Stack Development: Successfully implemented Full Stack Development by seamlessly integrating server-side and client-side components in a unified project leveraging Express, EJS, and Node.js.
 - User Authentication: Enabled user registration and login for secure access to the application and implemented user authentication and session management.
-- Password Hashing: Prioritized security by hashing passwords using bcrypt module before storing them.
+- Password Hashing: Prioritized security by hashing passwords using `bcrypt` module before storing them.
 - Bootstrap: Utilized Bootstrap for easy and visually appealing UI design.
 - Search Functionality: Implemented a search feature for efficient querying of URLs and notes.
 - Click Tracking: Tracked the number of clicks on shortened URLs for user engagement insights.
 - MongoDB Cloud Database: Successfully connected to and utilized a MongoDB cloud database.
 - Debugging Skills: Developed expertise in debugging type errors, Axios errors, and HTTP status codes.
-- Working with HTML, CSS and Bootstrap: Worked with HTML templates and static files and Styled the application using Bootstrap and CSS.
-- Structured Readme: Created a well-organized readme file in the Git repository.
+- Working with HTML, CSS, and Bootstrap: Worked with HTML templates and static files and Styled the application using Bootstrap and CSS.
+- Deployment on Render: Successfully deployed the application on the Render platform for seamless accessibility and scalability.
 
 ## References:
 
