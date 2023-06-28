@@ -83,14 +83,14 @@ Here's a breakdown of the internal workings of this project:
 Throughout the process of building the Shortify URL Shortener application, I acquired invaluable knowledge and hands-on expertise in diverse areas of web development. Here, I present my significant takeaways from this experience.
 
 - Server-side Development:
-  - Implementing the server-side components of the QuickLink application allowed me to gain hands-on experience with Node.js.
+  - Implementing the server-side components of the Shortify application allowed me to gain hands-on experience with Node.js.
   - I had the opportunity to work with Express.js, a popular web framework for building server-side applications.
   - By utilizing Node.js and Express.js, I gained practical knowledge in handling HTTP requests and responses efficiently.
   - Integrating MongoDB as the database solution provided me with experience in data modeling and interaction using the Mongoose library.
   - Adding authentication and session management, storing user information including hashed passwords(using `bcrypt` module), in MongoDB enhanced my understanding of secure data management and security.
     
 - Client-side Development:
-  - My involvement in the QuickLink application allowed me to work on the frontend components.
+  - My involvement in the Shortify application allowed me to work on the frontend components.
   - Using the `ejs` templating engine, I gained experience in dynamically rendering HTML templates on the server-side, incorporating JavaScript logic.
   - Implementing custom CSS styles and leveraging the Bootstrap framework provided me with skills in enhancing the visual presentation and responsiveness of the application.
   - Developing the filtering mechanism on the frontend enhanced my understanding of data searching and filtering, improving the user experience.
